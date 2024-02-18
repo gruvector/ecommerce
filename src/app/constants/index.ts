@@ -1,3 +1,4 @@
+
 export const inclusions = [
   {
     title: 'Free Shipping',
@@ -20,6 +21,8 @@ export const inclusions = [
     icon: '/assets/icons/payment.svg',
   },
 ]
+
+
 
 export const profileNavItems = [
   {

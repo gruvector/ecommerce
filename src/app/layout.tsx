@@ -1,7 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
 import { Jost } from 'next/font/google'
-
 import { AdminBar } from './_components/AdminBar'
 import { Footer } from './_components/Footer'
 import { Header } from './_components/Header'
@@ -18,6 +17,8 @@ const jost = Jost({
 })
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
+
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -38,6 +39,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     </html>
   )
 }
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SERVER_URL || 'https://payloadcms.com'),

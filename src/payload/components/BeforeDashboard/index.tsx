@@ -32,7 +32,7 @@ const BeforeDashboard: React.FC = () => {
             {'Stripe to obtain your API Keys'}
           </a>
           {
-            '. Create a new account if needed, then copy them into your environment variables and restart your server. See the '
+            '. Create a new account if needed, then copy into your environment variables and restart your server. See the '
           }
           <a
             href="https://github.com/payloadcms/payload/blob/main/templates/ecommerce/README.md#stripe"
